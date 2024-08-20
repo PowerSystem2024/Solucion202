@@ -6,7 +6,7 @@ Somos estudiantes de la Tecnicatura de Programacion de la UTN en San Rafael
 > 
 > Velazquez, Omar Ignacio
 > 
-> Herrera, Emanuel
+> Herrera, Emmanuel
 > 
 > Aular, Africa
 > 
