@@ -1,5 +1,7 @@
 # Solucion202
-Somos estudiantes de la Tecnicatura de Programacion de la UTN en San Rafael
+**Este repositorio es del segundo semestre de la cohorte 2024.**
+
+Se iran mostrando los progresos del grupo. 
 
 **Integrantes**
 > Orellana, Juan Marcos
