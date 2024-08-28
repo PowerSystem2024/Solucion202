@@ -15,26 +15,21 @@ q- **Documentación**: Documentación generada sobre temas específicos de Pytho
 
 ## Indice teoria 1er Cuatrimestre
 
-- [Clase 1 - Introducción a Python](./1erCuarimestre/Teoria/clase1.py)
-- Clase 2 - [variables](./1erCuarimestre/Teoria/clase2_variables.py) y su ubicación en [memoria](./1erCuarimestre/Teoria/clase2_variables_memoria.py)
-- [Clase 3 - Tipo de Datos](./1erCuarimestre/Teoria/clase3_tipos_de_datos.py)
-- [Clase 4 - operadores aritméticos](./1erCuarimestre/Teoria/clase5-operadores.py)
-- [Clase 5 - Operadores logicos](./1erCuarimestre/Teoria/clase5-operadores.py)
-- [Clase 6 - Condicionales](./1erCuarimestre/Teoria/clase6-condicionales.py)
-- [Clase 7 - Sentencias de control](./1erCuarimestre/Teoria/clase7_SentenciaDeControl.py)
-- Clase 8 - [Ciclo While](./1erCuarimestre/Teoria/clase8_ciclo_While.py) y [Ciclo For](./1erCuarimestre/Teoria/clase8_ciclo_For.py)
+- [Clase 1 - Introducción a Python](1erCuarimestre/Teoria/1erCuatrimestre/clase1.py)
+- Clase 2 - [variables](1erCuarimestre/Teoria/1erCuatrimestre/clase2_variables.py) y su ubicación en [memoria](1erCuarimestre/Teoria/1erCuatrimestre/clase2_variables_memoria.py)
+- [Clase 3 - Tipo de Datos](1erCuarimestre/Teoria/1erCuatrimestre/clase3_tipos_de_datos.py)
+- [Clase 4 - operadores aritméticos](1erCuarimestre/Teoria/1erCuatrimestre/clase5-operadores.py)
+- [Clase 5 - Operadores logicos](1erCuarimestre/Teoria/1erCuatrimestre/clase5-operadores.py)
+- [Clase 6 - Condicionales](1erCuarimestre/Teoria/1erCuatrimestre/clase6-condicionales.py)
+- [Clase 7 - Sentencias de control](1erCuarimestre/Teoria/1erCuatrimestre/clase7_SentenciaDeControl.py)
+- Clase 8 - [Ciclo While](1erCuarimestre/Teoria/1erCuatrimestre/clase8_ciclo_While.py) y [Ciclo For](1erCuarimestre/Teoria/1erCuatrimestre/clase8_ciclo_For.py)
 
 ## Indice teoria 2do Cuatrimestre
 - Clase 1 - [Listas](Teoria/sem2-clase1-colecciones.py) y [Tuplas](Teoria/sem2-clase2-tuplas.py)
 
 ## Indice parte practica
-- [Ejercicio 1](Practicos/ejercicio1.py) 
-- [Ejercicio 2](Practicos/ejercicio2.py)
-- [Ejercicio 3](Practicos/ejercicio3.py)
-- [Ejercicio 4](Practicos/ejercicio4.py)
-- [Ejercicio 5](Practicos/ejercicio5.py)
-- [Ejercicio 6](Practicos/ejercicio6.py)
-- [Ejercicio 7](Practicos/ejercicio7.py)
+- [Ejercicio del primer cuatrimestre](./1erCuarimestre/Practica/1erCatrimestre) 
+
 
 ## Enlaces Útiles
 
