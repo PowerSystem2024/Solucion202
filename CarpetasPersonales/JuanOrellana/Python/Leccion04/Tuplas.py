@@ -24,10 +24,19 @@ for cocinar in cocina:
     
 # Esto se puede hacer pero no es de buena practica hacerlo
 cocinaLista = list(cocina)
-cocinaLista[0] = 'Plato'
+#cocinaLista[0] = 'Plato'
 cocina = tuple(cocinaLista)
 print('\n',cocina)
     
 # Eliminar la tupla
-del cocina
+# del cocina
 # print(cocina)
+
+# Repaso de tuplas
+tupla = (4, 'hola', 6.78, [1, 2, 78], 4, 'Hola') # Pueden tener diferentes tipos de datos
+print(tupla)
+
+print(4 in tupla) # Accion booleana, su respuesta es de tipo booleana
+
+# Lo que podemos usar dentro de tuplas son: index, count, len
+# En tuplas se puede convertir de tupla a lista y de lista a tupla
