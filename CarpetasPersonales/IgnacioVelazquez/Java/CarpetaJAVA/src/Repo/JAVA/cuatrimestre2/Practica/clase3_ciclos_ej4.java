@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class clase3_ciclos_ej4 {
     /*
     Ejercicio 4: Pedir número hasta que se teclee uno negativo y mostrar cuantos números se han introducido.
+    con clase Scaner
      */
     public static void main(String[] args) {
         int num, contador = 0;
