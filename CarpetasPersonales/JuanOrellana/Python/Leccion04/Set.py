@@ -34,9 +34,7 @@ print(planetas)
 
 # Eliminar set o conjunto 
 del planetas
-<<<<<<< HEAD
 #print(planetas) # Al eliminar nos muestra un error porque ya esta vacio el set
-=======
 #print(planetas) # Al eliminar nos muestra un error porque ya esta vacio el set
 
 #Repaso de set o conjunto
@@ -96,5 +94,3 @@ print("")
 # No se puede agregar, modificar ni eliminar elementos del conjunto 
 conjunto1 = frozenset # Esto hace que el conjunto sea totalmente inmutable
 
-
->>>>>>> Juan
