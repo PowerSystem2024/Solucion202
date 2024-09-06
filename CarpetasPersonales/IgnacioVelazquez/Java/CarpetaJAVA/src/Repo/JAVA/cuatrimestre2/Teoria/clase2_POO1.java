@@ -51,6 +51,7 @@ public class clase2_POO1 {
         // Crear un objeto de la clase Persona y usar sus métodos
         Persona persona1 = new Persona("Ignacio", 32);
         persona1.mostrarInfo();
+        System.out.println("persona1 = " + persona1);
 
     }
 }

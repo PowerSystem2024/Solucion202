@@ -10,7 +10,7 @@ Este es el repositorio para la materia de Python. Aquí encontrarás recursos, e
 
 - **Ejercicios**: Carpeta con ejercicios prácticos para practicar los conceptos de Python.
 - **Teoria de clases**: Proyectos prácticos que te ayudarán a aplicar lo aprendido en la materia.
-q- **Documentación**: Documentación generada sobre temas específicos de Python.
+  q- **Documentación**: Documentación generada sobre temas específicos de Python.
 - **Proyectos**: Documentación generada sobre temas específicos de Python.
 
 ## Indice teoria 1er Cuatrimestre
@@ -25,11 +25,12 @@ q- **Documentación**: Documentación generada sobre temas específicos de Pytho
 - Clase 8 - [Ciclo While](1erCuarimestre/Teoria/clase8_ciclo_While.py) y [Ciclo For](1erCuarimestre/Teoria/clase8_ciclo_For.py)
 
 ## Indice teoria 2do Cuatrimestre
+
 - Clase 1 - [Listas](Teoria/sem2-clase1-colecciones.py) y [Tuplas](Teoria/sem2-clase2-tuplas.py)
 
 ## Indice parte practica
-- [Ejercicio del primer cuatrimestre](./1erCuarimestre/Practica/1erCatrimestre) 
 
+- [Ejercicio del primer cuatrimestre](./2doCuarimestre/Practica)
 
 ## Enlaces Útiles
 
@@ -38,6 +39,6 @@ q- **Documentación**: Documentación generada sobre temas específicos de Pytho
 - [GitHub Student Developer Pack](https://education.github.com/pack): Ofrece herramientas y recursos gratuitos para estudiantes, incluyendo acceso a GitHub Pro y cursos de desarrollo.
 - [Aprende Python ](https://aprendepython.es/)
 
-
 ## Contacto
+
 - [Linkedin](https://www.linkedin.com/in/omar-ignacio-velazquez-44499414a/): Ignacio Velazquez.
