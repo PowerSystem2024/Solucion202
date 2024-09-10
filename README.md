@@ -1,16 +1,16 @@
 # Solucion202
 **Este repositorio es del segundo semestre de la cohorte 2024.**
 
-**Este repositorio contiene materiales teóricos y prácticos de las clases de la Tecnicatura Universitaria en Programación-UTN-FRSR.**
+**Contiene materiales teóricos y prácticos de las clases de la Tecnicatura Universitaria en Programación-UTN-FRSR.**
 
 **Integrantes**
-> Orellana, Juan Marcos
+> [**Orellana, Juan Marcos**](https://github.com/juanmarcoso)
 > 
-> Velazquez, Omar Ignacio
+> [**Velazquez, Omar Ignacio**](https://github.com/IgnacioVelazquez92)
 > 
 > Herrera, Emmanuel
 > 
-> Aular, Africa
+> [**Aular, Africa**](https://github.com/AFRIAULAR)
 > 
 > Gauna, Gimena
 > 
@@ -18,7 +18,7 @@
 
 ## Estructura del Repositorio
 
-El repositorio está organizado en las siguientes carpetas, cada una correspondiente a los moódulos de Programación I:
+El repositorio está organizado en las siguientes carpetas, cada una correspondiente a los moódulos de Programación II:
 
 [***Python***](https://github.com/PowerSystem2024/Solucion202/tree/main/Tecnicatura/Python): Contiene teoría y ejercicios desarrollados en Python.
 
