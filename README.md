@@ -18,7 +18,7 @@
 
 ## Estructura del Repositorio
 
-El repositorio está organizado en las siguientes carpetas, cada una correspondiente a los moódulos de Programación I:
+El repositorio está organizado en las siguientes carpetas, cada una correspondiente a los moódulos de Programación II:
 
 [***Python***](https://github.com/PowerSystem2024/Solucion202/tree/main/Tecnicatura/Python): Contiene teoría y ejercicios desarrollados en Python.
 
