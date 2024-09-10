@@ -1,16 +1,16 @@
 # Solucion202
 **Este repositorio es del segundo semestre de la cohorte 2024.**
 
-**Este repositorio contiene materiales teóricos y prácticos de las clases de la Tecnicatura Universitaria en Programación-UTN-FRSR.**
+**Contiene materiales teóricos y prácticos de las clases de la Tecnicatura Universitaria en Programación-UTN-FRSR.**
 
 **Integrantes**
-> Orellana, Juan Marcos
+> [**Orellana, Juan Marcos**](https://github.com/juanmarcoso)
 > 
-> Velazquez, Omar Ignacio
+> [**Velazquez, Omar Ignacio**](https://github.com/IgnacioVelazquez92)
 > 
 > Herrera, Emmanuel
 > 
-> Aular, Africa
+> [**Aular, Africa**](https://github.com/AFRIAULAR)
 > 
 > Gauna, Gimena
 > 
