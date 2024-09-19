@@ -348,3 +348,24 @@ En resumen, las **etiquetas en Git** son esenciales para asignar versiones y cap
 >Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 <sub>**Profesor Ariel Betancud**</sub>
+
+# CLASE 06 MIÉRCOLES 18 DE SEPTIEMBRE DEL 2024 - Portafolio 6
+
+### Error con los tags
+**Investigación:** ¿Qué pasa si por error cargamos un tag dos veces? ¿Cómo solucionarías este problema o error?
+
+<sub>La respuesta debe ser enviada antes de las 23 horas por cada grupo, deben enviar comandos y todo los pasos que harían frente a este conflicto.</sub>
+
+>**[Trabajo del grupo "Solucion202"](/Tags-Clase6.pdf)**
+
+### PORTAFOLIO
+
+**Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:**
+
+>Dante Nicolás Martinez
+>
+>Segundo Semestre Parte 6:
+
+>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+<sub>**Profesor Ariel Betancud**</sub>
