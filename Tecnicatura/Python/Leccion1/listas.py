@@ -57,8 +57,11 @@ else:
 # ================================================
 # Métodos comunes de listas
 # ================================================
-# Las listas tienen varios métodos útiles para manipularlas.
 
+# Obtener la longitud de la lista
+print(len(lista_nombres))  # 6
+
+# Las listas tienen varios métodos útiles para manipularlas.
 # Agregar elementos a la lista
 lista_nombres.append("marcos")  # Agrega "marcos" al final
 print(lista_nombres)  # ["nacho", "emma", "sofia", "juan", "gime", "marianela", "marcos"]
@@ -76,10 +79,20 @@ ultimo_elemento = lista_nombres.pop()  # Elimina y retorna el último elemento
 print(ultimo_elemento)  # "marcos"
 print(lista_nombres)  # ["nacho", "flor", "emma", "sofia", "gime", "marianela"]
 
-# Obtener la longitud de la lista
-print(len(lista_nombres))  # 6
+# ================================================
+# Borrar una lista o sus elementos
+# ================================================
+# Puedes eliminar el contenido de una lista o borrar la lista completamente.
+
+lista_a_borrar = ["nacho", "emma", "afri"]
+lista_a_borrar.clear()  # Elimina todos los elementos de la lista
+print(lista_a_borrar)  # []
+
+del lista_a_borrar  # Elimina completamente la variable lista_a_borrar
 
 
+
+## METODOS NO VISTOS EN CLASE PERO LOS INCLUYO POR SI DESEAN ESTUDIARLOS.
 
 # ================================================
 # Listas por comprensión (list comprehensions)
@@ -133,13 +146,4 @@ cadena = "marianela"
 lista_desde_cadena = list(cadena)
 print(lista_desde_cadena)  # ['m', 'a', 'r', 'i', 'a', 'n', 'e', 'l', 'a']
 
-# ================================================
-# Borrar una lista o sus elementos
-# ================================================
-# Puedes eliminar el contenido de una lista o borrar la lista completamente.
 
-lista_a_borrar = ["nacho", "emma", "afri"]
-lista_a_borrar.clear()  # Elimina todos los elementos de la lista
-print(lista_a_borrar)  # []
-
-del lista_a_borrar  # Elimina completamente la variable lista_a_borrar
