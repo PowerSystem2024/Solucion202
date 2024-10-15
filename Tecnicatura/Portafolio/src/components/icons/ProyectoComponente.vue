@@ -8,7 +8,7 @@
             <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
             <div class="proyecto-info">
                 <h3>Ecommerce</h3>
-                <p>Creé una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
+                <p>Creamos una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
                 <div class="proyecto-links">
                     <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener norefeerer" >Ver Proyecto</a>
                     <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank" rel="noopener noreferrer">Ver codigo en GitHub</a>
@@ -19,7 +19,7 @@
             <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
             <div class="proyecto-info">
                 <h3>Ecommerce</h3>
-                <p>Creé una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
+                <p>Creamos una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
                 <div class="proyecto-links">
                     <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener norefeerer" >Ver Proyecto</a>
                     <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank" rel="noopener noreferrer">Ver codigo en GitHub</a>
@@ -30,7 +30,7 @@
             <img src="/src/assets/annidada-tech.jpeg" alt="Proyecto 1">
             <div class="proyecto-info">
                 <h3>Ecommerce</h3>
-                <p>Creé una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
+                <p>Creamos una plataforma de comercio electronico que incremento las ventas en un 35% durante el primer año</p>
                 <div class="proyecto-links">
                     <a href="https://proyecto1.com" class="btn-ver-mas" target="_blank" rel="noopener norefeerer" >Ver Proyecto</a>
                     <a href="https://github.com/usuario/proyecto1" class="github-link" target="_blank" rel="noopener noreferrer">Ver codigo en GitHub</a>
