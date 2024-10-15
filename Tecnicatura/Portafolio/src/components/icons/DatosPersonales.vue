@@ -1,9 +1,9 @@
 <script setup>
 
-const title = 'Cerdito Pato';
+const title = 'Solucion-202';
 const descripcion = 'Técnico Universitario en Programación - UTN';
-const residencia = 'Jachal, San Juan, Argentina';
-const presentacion = 'Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.';
+const residencia = 'Argentina';
+const presentacion = 'Hola, Bienvenido a nuestro portafolio de proyectos. Somos desarrolladores web con experiencia en el desarrollo de aplicaciones web y móviles.';
 const redesSociales = [
   { id: 1, name: 'linkedin', src: '/src/assets/icons8-linkedin.gif', url: 'https://www.linkedin.com/in/cerdito-pato/' },
   { id: 2, name: 'Instagram', src: '/src/assets/icons8-instagram-viejo.gif', url: 'https://www.instagram.com/cerditopato/' },
