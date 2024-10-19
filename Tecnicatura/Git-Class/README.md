@@ -477,9 +477,12 @@ ls -al #Revisa lo que va haciendo, los archivos o directorios que tiene
 ```
 
 **1**. No debe hacer un git init, debe buscar el repositorio en el cual esta invitado a participar, por supuesto en GitHub.
+
 **2**. Pasa a clonar desde HTTPS, copiar la url, esto es porque no se arranca el proyecto desde cero, se esta uniendo otro colaborador.
+
 **3**. En git bash ponemos el siguiente comando.
 git clone url-copiada-github #Esto hace que clonemos el repositorio
+
 **4**. No pide ni usuario ni contraseña si el repositorio es publico.
 
 ```sh
@@ -504,8 +507,11 @@ git push origin main #Va a pedir un email que será el del colaborador, su contr
 ```
 
 **5**. Nos trae un denegado, ¿Por qué? Porque en el proceso de abordaje el jefe no le dio acceso: el dueño del repositorio no le agregó dandole acceso.
+
 **6**. Ir a settings del repositorio, veremos la opsión Collaborators, agregamos el correo o nombre de usuario: el colaborador debe tener un email publico y visible o de otra manera debera ser con el nombre de usuario publico: ingresar el username y debe ir como colaborador.
+
 **7**. Se puede enviar un email con la url, pero ya GitHub envia una notificación al usuario de invitado, es una cosa que debemos empezar a consultar y revisar.
+
 **8**. El colaborador debe aceptar la invitación, una vez hecho eso ya tendrá total acceso para hacer push al repositorio.
 ```sh
 git pull origin main
@@ -529,6 +535,43 @@ git log --stat #Se verá claro que el colaborador ingreso su primer commit
 >Dante Nicolás Martinez
 >
 >Segundo Semestre Parte 8:
+
+>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+<sub>**Profesor Ariel Betancud**</sub>
+
+# CLASE 10 MIÉRCOLES 16 DE OCTUBRE DEL 2024 - Portafolio 10
+
+## Flujo de trabajo profesional
+
+### Haciendo merge de ramas de desarrollo a main
+
+Para poder desarrollar software de manera óptima y ordenada, necesitamos tener un flujo de trabajo profesional, que nos permita trabajar en conjunto sin interrumpir el trabajo de otros desarrolladores.
+
+**Una buena práctica de flujo de trabajo sería la siguiente:**
+
+**1**. Crear ramas
+
+**2**. Asignar una rama a cada programador
+
+**3**. El programador baja el repositorio con git pull origin master
+
+**4**. El programador cambia de rama
+
+**5**. El programador trabaja en esa rama y hace commits
+
+**6**. El programador sube su trabajo con git push origin #nombre_rama
+
+**7**. El encargado de organizar el proyecto baja, revisa y unifica todos los cambios
+
+
+**PORTAFOLIO**
+
+**Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:**
+
+>Dante Nicolás Martinez
+>
+>Segundo Semestre Parte 9:
 
 >Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
