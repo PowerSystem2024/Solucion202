@@ -1,0 +1,18 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>20</y><w>210</w><h>30</h></coordinates><panel_attributes>Object
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>40</y><w>210</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;
+(Extension de la clase 'Persona')</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>130</y><w>210</w><h>30</h></coordinates><panel_attributes>Empleado
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>20</y><w>210</w><h>30</h></coordinates><panel_attributes>Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>100</y><w>210</w><h>30</h></coordinates><panel_attributes>Persona</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>190</y><w>210</w><h>60</h></coordinates><panel_attributes>Empleado
+(Objecto que hereda de Object 
+sus atributos de forma indirecta)</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>120</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>520</x><y>40</y><w>90</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>200</y><w>210</w><h>60</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+- nombre
+- edad
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>100</x><y>250</y><w>90</w><h>90</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>320</y><w>270</w><h>60</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+--
+- sueldo (atributo)
+# Heredade la clase "padre": nombre y edad
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
