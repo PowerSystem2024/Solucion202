@@ -369,3 +369,74 @@ En resumen, las **etiquetas en Git** son esenciales para asignar versiones y cap
 >Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
 
 <sub>**Profesor Ariel Betancud**</sub>
+
+# CLASE 07 MIÉRCOLES 25 DE SEPTIEMBRE DEL 2024 - Portafolio 7
+
+### Error con los tags
+
+*Investigación: Si un tag es imposible generarlo dos veces ¿Cómo es que existe el error de dos tags con el mismo nombre?*
+
+**¿Cómo se origina este problema o error?**
+
+<sub>La respuesta debe ser enviada antes de las 23 horas por cada grupo, deben enviar comandos y todo los pasos que harían frente a este conflicto.</sub>
+
+**[Trabajo del grupo "Solucion202"](/Clase7-Tags.pdf)**
+
+### PORTAFOLIO
+
+**Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:**
+
+>Dante Nicolás Martinez
+>
+>Segundo Semestre Parte 6:
+
+>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+<sub>**Profesor Ariel Betancud**</sub>
+
+# CLASE 08 MIÉRCOLES 2 DE OCTUBRE DEL 2024 - Portafolio 8
+
+## Manejo de ramas en GitHub
+
+> *Si no te funciona el comando gitk es posible no lo tengas instalado por defecto.*
+> 
+Para instalar git debemos ejecutar los siguientes comandos:
+
+
+```sh
+
+  sudo apt-get update
+
+  sudo apt-get install gitk
+
+```
+
+## Repasa: ¿Qué es Git?
+
+Las ramas nos permiten hacer cambios a nuestros archivos sin modificar la versión principal (main). Puedes trabajar con ramas que nunca envías a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo crucial es que aprendas a manejarlas para trabajar profesionalmente.
+
+Si, estando en otra rama, modificamos los archivos y hacemos commit, tanto el historial(git log) como los archivos serán afectados. La ventaja que tiene usar ramas es que las modificaciones solo afectarán a esa rama en particular. Si luego de “guardar” los archivos(usando commit) nos movemos a otra rama (git checkout otraRama) veremos como las modificaciones de la rama pasada no aparecen en la otraRama.
+
+## Comandos para manejo de ramas en GitHub
+*Crear una rama:*
+
+```sh
+git branch branchName #Crear una rama
+git checkout branchName #Movernos a otra rama 
+git checkout -b nombre-de-la-rama #Crear una rama en el repositorio local
+git push origin nombre-de-la-rama #Publicar una rama local al repositorio remoto
+```
+
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando gitk. Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
+
+## PORTAFOLIO
+
+**Vamos a ver unos videos de como avanzar en lo que es un portafolio por el Tutor:**
+
+>Dante Nicolás Martinez
+>
+>Segundo Semestre Parte 7:
+
+>Revisar y ejecutar cada comando, hacerlo como practica: NO olvidar hacer lo requerido por el Tutor Nico, lo que sea tarea o investigación.
+
+<sub>**Profesor Ariel Betancud**</sub>
