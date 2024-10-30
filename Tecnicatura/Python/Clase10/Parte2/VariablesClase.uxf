@@ -1,0 +1,37 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>360</x><y>20</y><w>210</w><h>80</h></coordinates><panel_attributes>&lt;&lt;Persona&gt;&gt;
+--
+- nombre: str
+- edad: int
+--
+- mostrar_detalle()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>270</y><w>210</w><h>60</h></coordinates><panel_attributes>&lt;&lt;Persona1: Persona&gt;&gt;
+--
+- nombre: str = 'Ariel'
+- edad: int = 40</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>620</x><y>270</y><w>210</w><h>60</h></coordinates><panel_attributes>&lt;&lt;Persona2: Persona&gt;&gt;
+--
+- nombre: str = 'Osvaldo'
+- edad: int = 45</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>210</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>730</x><y>210</y><w>30</w><h>80</h></coordinates><panel_attributes>lt=.
+</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>90</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;.
+</panel_attributes><additional_attributes>10;10;10;130</additional_attributes></element><element><id>Relation</id><coordinates><x>450</x><y>200</y><w>310</w><h>40</h></coordinates><panel_attributes>lt=.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;290;20</additional_attributes></element><element><id>Relation</id><coordinates><x>160</x><y>200</y><w>320</w><h>40</h></coordinates><panel_attributes>lt=.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;300;20</additional_attributes></element><element><id>UMLNote</id><coordinates><x>10</x><y>10</y><w>240</w><h>180</h></coordinates><panel_attributes>Variables de Clase
+bg=blue
+
+Las variables de clase en Python son 
+variables que pertenecen a la clase en sí, 
+no a instancias individuales de la clase. 
+Esto significa que son compartidas por 
+todas las instancias de la clase. 
+Se definen dentro de la clase pero fuera 
+de cualquier método, y su valor es 
+accesible y modificable por todas las 
+instancias de la clase.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>680</x><y>10</y><w>260</w><h>140</h></coordinates><panel_attributes>Extra...
+--
+bg=gray
+fg=red
+
+Las variables de clase son compartidas 
+entre todas las instancias de la clase 
+y se usan cuando se necesita un valor 
+común para todas las instancias.</panel_attributes><additional_attributes></additional_attributes></element></diagram>
