@@ -2,5 +2,7 @@ package solucionCoin;
 
 public abstract class Juego {
 
-    public abstract double apostar();
+    public abstract void iniciarJuego();
+    public abstract void apostar();
+
 }

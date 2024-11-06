@@ -17,8 +17,6 @@ public class Jugador {
     }
 
     public void setPlata(double plata) {
-        if(plata < 0){
-            this.plata += plata;
-        }
+        this.plata += plata;
     }
 }

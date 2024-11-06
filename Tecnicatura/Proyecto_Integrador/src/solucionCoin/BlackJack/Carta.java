@@ -4,7 +4,7 @@ package solucionCoin.BlackJack;
 public class Carta {
     private String palo;
     private String valor;
-    private boolean isDisponible;
+
 
     public String getPalo() {
         return palo;
@@ -22,39 +22,37 @@ public class Carta {
         this.valor = valor;
     }
 
-    public boolean getIsDisponible() {
-        return isDisponible;
-    }
-
-    public void setDisponible(boolean disponible) {
-        this.isDisponible = disponible;
-    }
-
-    public String[] obtenerCarta() {
-        if (valor == null || palo == null) {
-            return new String[]{"Error: Valor o palo de la carta no inicializado."};
-        }
-
-        String valorAjustado = switch (valor) {
-            case "10" -> "10";
-            default -> valor + " ";
-        };
-
-        String simboloPalo = switch (palo) {
+    // Método para obtener el símbolo del palo
+    private String obtenerSimbolo() {
+        return switch (palo) {
             case "C" -> "♥";
             case "D" -> "♦";
             case "P" -> "♠";
             case "T" -> "♣";
             default -> "?";
         };
+    }
+
+    // Método para ajustar el valor para la visualización
+    private String obtenerValorAjustado() {
+        return switch (valor) {
+            case "10" -> "10";
+            default -> valor + " ";
+        };
+    }
+
+    // Método para obtener la representación visual de la carta
+    public String[] obtenerVisualizacion() {
+        String valorAjustado = obtenerValorAjustado();
+        String simbolo = obtenerSimbolo();
 
         return new String[]{
                 "┌─────────┐",
                 "│ " + valorAjustado + "      │",
                 "│         │",
-                "│    " + simboloPalo + "    │",
+                "│    " + simbolo + "    │",
                 "│         │",
-                "│      " + valorAjustado + " │",
+                "│       " + valorAjustado + "│",
                 "└─────────┘"
         };
     }
