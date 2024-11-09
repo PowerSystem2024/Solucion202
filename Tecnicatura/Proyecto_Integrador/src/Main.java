@@ -1,4 +1,5 @@
 import solucionCoin.BlackJack.BlackJack;
+import solucionCoin.AdivinanzasAnimales.AdivinanzasAnimales;
 import solucionCoin.Jugador;
 import java.util.Scanner;
 
@@ -44,7 +45,8 @@ public class Main {
                     System.out.println("acertijos ");
                     break;
                 case 5:
-                    System.out.println("adivinanzas De Animales");
+                    AdivinanzasAnimales adivinanzasAnimales = new AdivinanzasAnimales(jugador);
+                    jugador = adivinanzasAnimales.getJugador();
                     break;
                 case 6:
                     System.out.println("JackPot");
