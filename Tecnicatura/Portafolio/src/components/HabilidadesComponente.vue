@@ -1,11 +1,11 @@
 <script setup>
-import img1 from '/src/components/icons/js.svg';
+import img1 from '/src/components/icons/JavaScript.svg';
 import img2 from '/src/components/icons/python.svg';
 import img3 from '/src/components/icons/html-css.svg';
-import img4 from '/src/components/icons/java.svg';
+import img4 from '/src/components/icons/java-svgrepo-com.svg';
 import img5 from '/src/components/icons/sql.svg';
 import img6 from '/src/components/icons/react.svg';
-import img7 from '/src/components/icons/vue.svg';
+import img7 from '/src/components/icons/vue-svgrepo-com.svg';
 import img8 from '/src/components/icons/node.svg';
 import img9 from '/src/components/icons/django.svg';
 import img10 from '/src/components/icons/bootstrap.svg';
@@ -93,12 +93,12 @@ const habilidades = ref([
 .skills-contenedor {
     padding: 2rem;
     /*Fondo cargado desde una imagen estatica en Assets*/
-    /* background-image: url('/src/assets/fondo-proyectos.jpg');
+    background-image: url('/src/assets/fondo2.jpeg');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat; 
     /*Fondo con gradiente*/
-    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    /*background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);*/
     /*Fondo con color solido*/
     /* background-color: rgb(28, 41, 52); */
 }
@@ -109,12 +109,14 @@ const habilidades = ref([
 
 .skills-categoria h3 {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 10px;
-    font-size: 1.5em;
-    color: aliceblue;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 2em;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px #000000;
+    /*font-size: 1.5em;
+    font-weight: bold;*/
 }
 
 .skills {
@@ -129,7 +131,7 @@ const habilidades = ref([
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background-color: rgba(241, 245, 243, 0.856);
+    background-color: rgba(2, 65, 33, 0.856);
     padding: 0.3em;
     border-radius: 8px;
     box-shadow: 0px 4px 12px rgba(2, 151, 151, 0.963);
@@ -148,7 +150,9 @@ const habilidades = ref([
 
 .skill span {
     font-size: 1em;
-    color: #333;
+    color: #e2d8d8;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: 700;
 }
 
 .skill:hover {

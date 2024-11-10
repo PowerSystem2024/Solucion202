@@ -28,7 +28,7 @@ El repositorio está organizado en las siguientes carpetas, cada una correspondi
 
 [***Git-Class***](https://github.com/PowerSystem2024/Solucion202/tree/main/Tecnicatura/Git-Class): incluye un archivo Markdown donde nos muestra lineas de comando en Git explicados.
 
-[***Portafolio***](https://github.com/PowerSystem2024/Solucion202/tree/main/Tecnicatura/Portafolio): Aqui vamos a mostrar nuestro portafollio creado con **VUE**.
+[***Portafolio***](https://github.com/PowerSystem2024/Solucion202/tree/main/Tecnicatura/Portafolio): Aqui vamos a mostrar nuestro portafollio creado con **VUE**. Para verlo deployado en Netifly: [**Solucion202**](https://solucion202-vue.netlify.app/)
 
 ## Enlaces Útiles
 

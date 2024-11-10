@@ -1,16 +1,21 @@
 <script setup>
 
-const title = 'Solucion-202';
-const descripcion = 'Técnico Universitario en Programación - UTN';
+import linkedin from '/src/assets/icons8-linkedin.gif';
+import instagram from '/src/assets/icons8-instagram-viejo.gif';
+import github from '/src/assets/icons8-github.gif';
+import cv from '/src/assets/icons8-curriculum-vitae-50.png';
+
+const title = 'Solucion 202';
+const descripcion = 'Técnicos Universitarios en Programación - UTN';
 const residencia = 'Argentina';
-const presentacion = 'Hola, Bienvenido a nuestro portafolio de proyectos. Somos desarrolladores web con experiencia en el desarrollo de aplicaciones web y móviles.';
+const presentacion = 'Hola, Bienvenido al portafolio de proyectos. Somos desarrolladores web con experiencia en el desarrollo de aplicaciones web y móviles.';
 const redesSociales = [
-  { id: 1, name: 'linkedin', src: '/src/assets/icons8-linkedin.gif', url: 'https://www.linkedin.com/in/cerdito-pato/' },
-  { id: 2, name: 'Instagram', src: '/src/assets/icons8-instagram-viejo.gif', url: 'https://www.instagram.com/cerditopato/' },
-  { id: 3, name: 'github', src: '/src/assets/icons8-github.gif', url: '' },
-  { id: 4, name: 'curriculum', src: '/src/assets/icons8-curriculum-vitae-50.png', url: '' },
+  { id: 1, name: 'linkedin', src: linkedin, url: 'https://www.linkedin.com/in/cerdito-pato/' },
+  { id: 2, name: 'Instagram', src: instagram, url: 'https://www.instagram.com/cerditopato/' },
+  { id: 3, name: 'github', src: github, url: '' },
+  { id: 4, name: 'curriculum', src: cv, url: '' },
 ];
-const telefono = '+54 9 264-5552345';
+const telefono = '+54 9 267-5552345';
 
 </script>
 

@@ -15,11 +15,11 @@ import { ref } from 'vue';
 // Creamos una variable reactiva que sera un arreglo
 // Es un arreglo de objetos porque las llaves representan los objetos
 const navegacion = ref([
-    {id:1, nombre: "Educacion", enlace: 'educacion'},
-    {id:2, nombre: "Experiencia", enlace: 'experiencia'},
-    {id:3, nombre: "Proyectos", enlace: 'proyectos'},
-    {id:4, nombre: "Habilidades", enlace: 'habilidades'},
-    {id:5, nombre: "Intereses", enlace: 'intereses'}
+    {id:1, nombre: "Educacion", enlace: '#educacion'},
+    {id:2, nombre: "Experiencia", enlace: '#experiencia'},
+    {id:3, nombre: "Proyectos", enlace: '#proyectos'},
+    {id:4, nombre: "Habilidades", enlace: '#habilidades'},
+    {id:5, nombre: "Intereses", enlace: '#intereses'}
 ])
 </script>
 
