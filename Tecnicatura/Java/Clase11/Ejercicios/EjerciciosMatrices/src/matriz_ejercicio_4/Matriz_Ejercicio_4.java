@@ -1,0 +1,36 @@
+/*
+ * Ejercicio 4: Crear y cargar una matriz de tamaño 7x7 y rellenarla de forma que
+ * los elementos de la diagonal principal sean 1 y el resto 0
+ */
+package matriz_ejercicio_4;
+
+import java.util.Scanner;
+
+public class Matriz_Ejercicio_4 {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        int matriz[][] = new int[7][7];
+
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                if (i == j) {
+                    matriz[i][j] = 1;
+                } 
+                else {
+                    matriz[i][j] = 0;
+                }
+            }
+        }
+
+        System.out.println("\nMostrando matriz completa: ");
+        
+        for (int i = 0; i < 7; i++) {
+            for (int j = 0; j < 7; j++) {
+                System.out.print(matriz[i][j] + "  "); // Cambia println por print
+            }
+            System.out.println(""); // Salta línea después de cada fila
+        }
+        System.out.println("");
+    }
+}

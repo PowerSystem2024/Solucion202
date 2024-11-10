@@ -1,0 +1,43 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLPackage</id><coordinates><x>140</x><y>30</y><w>290</w><h>560</h></coordinates><panel_attributes>Un dominio, direccion
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>70</y><w>270</w><h>190</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+- idOrden
+- producto[]: Producto
+- ContadorOrdenes: int
+MAX_PRODUCTOS: int = 10
+--
++ Orden()
++ agregarProducto(producto: Producto): void
++ calcularTotal(): double
++ mostrarOrden(): void
+--
+Responsabilidades
+-- Crear objetos Orden</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>620</x><y>30</y><w>230</w><h>180</h></coordinates><panel_attributes>Test Ventas
+--
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>630</x><y>80</y><w>210</w><h>110</h></coordinates><panel_attributes>&lt;&lt;Ventas Test&gt;&gt;
+--
++ main(args:String[]): void
+--
+Responsabilidades
+-- Ejecutar la prueba de la aplicacion 
+de ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>150</x><y>310</y><w>270</w><h>260</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+- idProducto: int
+- nombre: String
+- precio: double
+- contadorProducto: int
+--
+- Producto()
++ Producto(nombre: String, precio: double)
++ getIdProducto(): int
++ getNombre(): String
++ setNombre(nombre: String): void
++ getPrecio(): double
++ setPrecio(precio: double): void
++ toString(): String
+--
+Responsabilidades
+- Crear objetos de tipo producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>280</x><y>20</y><w>350</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>10;20;330;20</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>250</y><w>240</w><h>80</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Un producto se agrega a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;60</additional_attributes></element></diagram>
