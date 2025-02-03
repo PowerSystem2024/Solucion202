@@ -8,7 +8,7 @@
 > 
 > [**Velazquez, Omar Ignacio**](https://github.com/IgnacioVelazquez92)
 > 
-> Herrera, Emmanuel
+> [**Herrera, Emmanuel**](https://github.com/emmanhok)
 > 
 > [**Aular, Africa**](https://github.com/AFRIAULAR)
 > 
